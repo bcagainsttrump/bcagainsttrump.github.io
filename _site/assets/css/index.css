@@ -297,7 +297,7 @@ sup {
        height: auto;
      }
 
-     #map img { width:100%l height:auto; max-width: 300px; }
+     #map img { width:100%; height:auto; max-width: 300px; }
 
      table { font-size: 1em; display:inline; max-width: 400px; }
 
@@ -312,11 +312,11 @@ sup {
      select:active, select:hover { outline: none }
 
      select {
-         padding: 7px 30px 7px 7px;
-         margin: 0;
+         padding: 7px 50px 7px 50px;
+         margin-bottom: 10px;
          font-family: 'courier new';
          background: rgba(0, 0, 0, 1);
-         font-size: 1.5em;
+         font-size: 1em;
          font-weight: bold;
          color:#b8b8b8;
          border: 1px solid #ccc;
@@ -333,9 +333,9 @@ sup {
      label:after {
     content:"\f104";
     font-family: "Ionicons";
-    font-size: 2em;
+    font-size: 1em;
     color:#b8b8b8;
-    right:8px; top:-12px;
+    right:8px; top:0px;
     padding:0 0 2px;
     position:absolute;
     pointer-events:none;
