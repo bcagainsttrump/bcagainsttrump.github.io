@@ -68,7 +68,7 @@ body p {
   -webkit-margin-after:0em;
 }
 
-#home a {text-align: center; }
+#home a { text-align: center; }
 
 #home {
   color: #b8b8b8;
@@ -230,46 +230,19 @@ sup {
   font-weight: 200;
   font-family: 'courier new', sans-serif; }
 
+  .foot p { font-size: small; }
+
   /*mobile screens*/
 
   @media only screen and (max-device-width : 420px) {
 
-    input {
-      font-size: 12px;
-    }
-
-    header {
-      margin-bottom: 2em;
-      font-size: 0.5em;
-    }
-
-    body p {
-      font-size: 1em;
-      font-weight:200;
-    }
-
-    #no img {
-      width: 375px;
-      height: auto;
-    }
-
-    #map img { width: 150px; }
-
-    table { font-size: 1em; }
-
-    #max {
-      max-height: 300px;
-      overflow-y: scroll;
-      border-bottom: 1px solid #ccc;
-    }
-
     h1 {
        display: inline-block;
-       font-size: 4em;
+       font-size: 5em;
     }
 
     h2 {
-      font-size: 0.78em;
+      font-size: 1.2em;
       text-align:center;
     }
 
@@ -282,6 +255,41 @@ sup {
       font-weight:200;
       padding: 0.5em;
      }
+
+     input {
+       font-size: 1.2em;
+     }
+
+     header {
+       margin-bottom: 2em;
+       font-size: 0.5em;
+     }
+
+     body p {
+       font-size: 1em;
+       font-weight:200;
+     }
+
+     #no img {
+       width: 375px;
+       height: auto;
+     }
+
+     #map img { width: 300px; }
+
+     table { font-size: 1em; display:inline; max-width: 400px; }
+
+     #col td { display: block; border-bottom: 2px; }
+
+     #max {
+       max-height: 300px;
+       overflow-y: scroll;
+       border-bottom: 1px solid #ccc;
+     }
+
+     .foot p { font-size: 1em; }
+     .foot i { font-size: 3em; }
+
   }
 
   /*
