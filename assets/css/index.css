@@ -244,7 +244,7 @@ sup {
 
   /*mobile screens*/
 
-  @media only screen and (max-device-width : 420px) {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 420px) {
 
     h1 {
        display: inline-block;
@@ -283,11 +283,12 @@ sup {
      .nav a { font-size: 1.6em; }
 
      #no img {
-       width: 375px;
+       width: 100%;
+       max-width: 375px;
        height: auto;
      }
 
-     #map img { width: 300px; }
+     #map img { width:100%l height:auto; max-width: 300px; }
 
      table { font-size: 1em; display:inline; max-width: 400px; }
 
@@ -299,7 +300,7 @@ sup {
        border-bottom: 1px solid #ccc;
      }
 
-     select:active, select:hover {  outline: none }
+     select:active, select:hover { outline: none }
 
      select {
          padding:3px;
@@ -307,7 +308,7 @@ sup {
          font-family: 'courier new';
          background: rgba(0, 0, 0, 1);
          font-size: 1.5em;
-         font-weight:200;
+         font-weight: bold;
          color:#b8b8b8;
          border:none;
          outline:none;
@@ -318,12 +319,12 @@ sup {
          cursor:pointer;
      }
 
-     option {
-       background: rgba(0, 0, 0, 1);
-     }
-     label {position:relative}
+     option { background: rgba(0, 0, 0, 1); }
+
+     label { position:relative }
+
      label:after {
-         content:'>';
+         content:'▸';
          font-family: 'courier new';
          color: #b8b8b8;
          -webkit-transform:rotate(90deg);
@@ -335,9 +336,9 @@ sup {
          position:absolute;
          pointer-events:none;
      }
-     label.changed:after {
-         color: #ccc;
-     }
+
+     label.changed:after { color: #ccc; }
+
      label:before {
          content:'';
          right:6px; top:0px;
