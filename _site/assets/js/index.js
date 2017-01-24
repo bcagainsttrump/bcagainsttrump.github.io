@@ -1,7 +1,7 @@
 $(function() {
 
 $(document).ready(function() {
-
+/*
   function sticky_relocate() {
    var window_top = $(window).scrollTop();
    var div_top = $('#sticky-anchor').offset().top;
@@ -9,7 +9,7 @@ $(document).ready(function() {
        $('#sticky').addClass('stick');
    }
 };  $(window).scroll(sticky_relocate);sticky_relocate();
-
+*/
   /*
 
   if (top.location.pathname === '/links/') {
