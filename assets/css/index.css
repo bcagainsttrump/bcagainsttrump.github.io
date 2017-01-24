@@ -13,11 +13,16 @@
 }
 
 .underline {
-  border-bottom: solid 1px;
-  padding-bottom: 0px;
+  border-bottom: solid 2px;
 }
 
 #hi { color: black; background-color: #b8b8b8; }
+
+#sticky.stick {
+    position: fixed;
+    top: 0; right: 0; left: 0; margin: auto;
+    z-index: 10000;
+}
 
 figure {
 -webkit-filter: grayscale(100%);
