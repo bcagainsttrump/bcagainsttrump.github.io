@@ -1,4 +1,13 @@
 /*regular*/
+@font-face {
+  font-family: "Ionicons";
+  src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1");
+  src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"),
+  url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"),
+  url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"),
+  url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+  font-weight: normal; font-style: normal; }
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -303,50 +312,36 @@ sup {
      select:active, select:hover { outline: none }
 
      select {
-         padding:3px;
+         padding: 7px 30px 7px 7px;
          margin: 0;
          font-family: 'courier new';
          background: rgba(0, 0, 0, 1);
          font-size: 1.5em;
          font-weight: bold;
          color:#b8b8b8;
-         border:none;
+         border: 1px solid #ccc;
+         border-radius: 2px;
          outline:none;
          display: inline-block;
          -webkit-appearance:none;
          -moz-appearance:none;
          appearance:none;
-         cursor:pointer;
      }
-
-     option { background: rgba(0, 0, 0, 1); }
 
      label { position:relative }
 
      label:after {
-         content:'▸';
-         font-family: 'courier new';
-         color: #b8b8b8;
-         -webkit-transform:rotate(90deg);
-         -moz-transform:rotate(90deg);
-         -ms-transform:rotate(90deg);
-         transform:rotate(90deg);
-         right:0px; top:-3px;
-         padding:0 0 2px;
-         position:absolute;
-         pointer-events:none;
-     }
+    content:"\f104";
+    font-family: "Ionicons";
+    font-size: 2em;
+    color:#b8b8b8;
+    right:8px; top:-12px;
+    padding:0 0 2px;
+    position:absolute;
+    pointer-events:none;
+}
 
-     label.changed:after { color: #ccc; }
-
-     label:before {
-         content:'';
-         right:6px; top:0px;
-         width:20px; height:20px;
-         position:absolute;
-         pointer-events:none;
-         display:block;
-     }
+     option { background: rgba(0, 0, 0, 1); }
 
   }
 
