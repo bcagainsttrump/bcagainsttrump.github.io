@@ -119,12 +119,12 @@ body a:hover {
   color: #b8b8b8;
 }
 
+#no img { height: 200px; }
+
 #no a, #no a:after, #no a:hover, #no a:hover:after {
   border-bottom: 0px;
   border-bottom: rgba(0,0,0,0);
 }
-
-i.ion-social-github a:hover, i.ion-social-github a:hover:after { border-bottom: 0px; border-bottom: rgba(0,0,0,0); transform: scaleX(1);}
 
 #example1 {
   position: relative;
@@ -232,7 +232,7 @@ sup {
 
   /*mobile screens*/
 
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-device-width : 420px) {
 
     input {
       font-size: 12px;
@@ -244,31 +244,41 @@ sup {
     }
 
     body p {
-      font-size: 12px;
+      font-size: 1em;
       font-weight:200;
     }
 
     #no img {
-      height: 100px;
+      width: 375px;
+      height: auto;
     }
 
-    table { font-size: 0.3em; }
+    #map img { width: 150px; }
+
+    table { font-size: 1em; }
+
+    #max {
+      max-height: 300px;
+      overflow-y: scroll;
+      border-bottom: 1px solid #ccc;
+    }
 
     h1 {
        display: inline-block;
-       font-size: 1.5em;
+       font-size: 4em;
     }
 
     h2 {
-      font-size: 0.75em;
+      font-size: 0.78em;
+      text-align:center;
     }
 
     h3 {
-      font-size: 0.3em;
+      font-size: 1em;
     }
 
     li {
-      font-size: 12px;
+      font-size: 1em;
       font-weight:200;
       padding: 0.5em;
      }
