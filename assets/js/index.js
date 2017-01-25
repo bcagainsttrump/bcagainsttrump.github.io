@@ -1,6 +1,7 @@
 $(function() {
 
 $(document).ready(function() {
+
 /*
   function sticky_relocate() {
    var window_top = $(window).scrollTop();
