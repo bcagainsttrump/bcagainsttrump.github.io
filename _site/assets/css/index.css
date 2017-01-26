@@ -86,15 +86,10 @@ header {
 
 html { display: table; margin: auto; }
 
-#left { top: 0; left: 0; position: fixed; background-image: url('/assets/img/distressv.png');}
-
 
 body {
   display: table-cell;
   vertical-align: middle;
-  background-image: url('/assets/img/istressmall.png');
-  background-attachment: fixed;
-  background-repeat: repeat;
   background-color: #000000;
   text-rendering: optimizeLegibility;
   padding: 3% 10% 3% 10%;
@@ -244,7 +239,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 0.6em;
   font-weight: 200;
   color: #555555;
   font-family: 'courier new', sans-serif;
@@ -278,7 +273,9 @@ sup {
   section a { font-size: 0.5em; }
 
   .foot p { font-size: 1em; }
-  .foot a { font-size: 3em; }
+  .foot a { font-size: 2em; }
+
+  #rec { padding-left: 30px; }
 
   /*mobile screens*/
 
@@ -315,6 +312,8 @@ sup {
        font-size: 0.5em;
      }
 
+     body { padding: 7% 7% 7% 7%; }
+
      body p {
        font-size: 1em;
        font-weight:200;
@@ -334,7 +333,9 @@ sup {
 
      table { font-size: 1em; display:inline; max-width: 400px; }
 
-     #col td { display: block; border-bottom: 2px; }
+     #col td { display: block; border-bottom: 2px; padding-left: 0px; }
+
+     #rec td { padding-left: 0px; }
 
      #max {
        max-height: 300px;
