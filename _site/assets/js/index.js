@@ -2,6 +2,26 @@ $(function() {
 
 $(document).ready(function() {
 
+  var wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: 'violet',
+    progressColor: 'purple'
+});
+
+wavesurfer.load('https://dl.dropbox.com/s/7oaidkyo0b07tts/loversmelt2.mp3');
+
+var mq = window.matchMedia( "(max-device-width : 420px)" );
+
+if (mq.matches) {
+
+  $('#cu').attr('id', 'hi');
+  $('.nav').hide();
+  $('#dropDown').show();
+} else {
+  $('.nav').show();
+  $('#dropDown').hide();
+}
+
 /*
   function sticky_relocate() {
    var window_top = $(window).scrollTop();
@@ -24,18 +44,6 @@ $(document).ready(function() {
   }
 
   */
-
-var mq = window.matchMedia( "(max-device-width : 420px)" );
-
-if (mq.matches) {
-
-  $('#cu').attr('id', 'hi');
-  $('.nav').hide();
-  $('#dropDown').show();
-} else {
-  $('.nav').show();
-  $('#dropDown').hide();
-}
 
    });
  });
