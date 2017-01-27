@@ -275,8 +275,29 @@ sup {
 
   section a { font-size: 0.5em; }
 
-  .foot p { font-size: 1em; }
-  .foot a { font-size: 2em; }
+  .foot {
+    bottom: -50px;
+    text-align: center;
+    width:325px;
+    height:175px;
+    overflow:hidden;
+    position: relative;
+    border: 0px solid white;
+    display: table-cell;
+    vertical-align: middle;
+   }
+
+  .foot p { font-size: 1em; color: #404040; background-color: black; padding: 1px; }
+  .foot a { font-size: 2em; color: #404040; }
+
+.foot img {
+    position: absolute;
+    opacity: 0.5;
+    bottom: -150px;
+    left: 0; right: 0; margin: auto;
+    width: 90%;
+    z-index: -999999999999999;
+}
 
   #rec { padding-left: 30px; }
 
