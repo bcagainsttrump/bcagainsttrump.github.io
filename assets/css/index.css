@@ -165,6 +165,9 @@ body a:hover {
   border-bottom: rgba(0,0,0,0);
 }
 
+#sc, #ppt { width: 500px; }
+#ppt iframe { width: 600px; height: 500px; }
+
 #example1 {
   position: relative;
   display: inline-block;
@@ -344,8 +347,8 @@ sup {
      }
 
      #sc, #ppt { width: 350px; overflow: scroll; }
-     #sc iframe { height: 350; }
-     #ppt iframe { width: 350; height: 350; }
+     #sc iframe { height: 292; overflow: scroll; }
+     #ppt iframe { width: 350; height: 292; overflow: scroll; }
 
      #subscribe { font-size: large; }
 
