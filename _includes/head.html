@@ -4,45 +4,6 @@
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
 
-  <meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
-{% else %}
-  <meta content="{{ site.title }}" property="og:title">
-{% endif %}
-{% if page.title %}
-  <meta content="article" property="og:type">
-{% else %}
-  <meta content="website" property="og:type">
-{% endif %}
-{% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
-{% else %}
-  <meta content="{{ site.description }}" property="og:description">
-{% endif %}
-{% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-{% endif %}
-{% if page.date %}
-  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
-{% endif %}
-{% if page.image %}
-  <meta content="/assets/img/og.png" property="og:image">
-{% else %}
-  <meta content="/assets/img/og.png" property="og:image">
-{% endif %}
-{% if page.categories %}
-  {% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
-  {% endfor %}
-{% endif %}
-{% if page.tags %}
-  {% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">
-  {% endfor %}
-{% endif %}
-
   <meta charset="UTF-8">
   <meta name="theme-color" content="#000000"/>
   <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no" />
@@ -61,6 +22,7 @@
   <link rel="image_src" href="https://bc-at.net/assets/img/og.png">
   <script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="/assets/js/parallax-plugin.js"></script>
+  <script src="/assets/js/lighterbox.js"></script>
   <script type="text/javascript" src="/assets/js/index.js"></script>
 
 </head>
