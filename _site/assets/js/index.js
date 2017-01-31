@@ -37,7 +37,5 @@ if (mq.matches) {
 
   */
 
-  $(".lighterbox").lighterbox({ overlayColor : "black" });
-
    });
  });
