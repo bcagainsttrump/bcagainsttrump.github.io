@@ -7,25 +7,9 @@
   <meta charset="UTF-8">
   <meta name="theme-color" content="#000000"/>
   <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta property="og:title" content="BC AGAINST TRUMP" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://bc-at.net" />
-  <meta property="og:image" content="https://bc-at.net/assets/img/og.png" />
-  <meta property="og:site_name" content="BC AGAINST TRUMP"/>
-  <meta property="og:description" content="official webpage for the brooklyn college teach-in & workshop series on resistance to the trump agenda." />
-
-      <title>BC AGAINST TRUMP {{ page.title }}</title>
-
-  <link rel="icon" href="/./favi.png">
-  <link rel="stylesheet" href="/assets/css/index.css">
-  <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="image_src" href="https://bc-at.net/assets/img/og.png">
-  <script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="/assets/js/parallax-plugin.js"></script>
-  <script type="text/javascript" src="/assets/js/index.js"></script>
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
-<title>{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title | escape }}</title>
+<title>{{ site.title | escape }} {% if page.title %}{{ page.title | escape }}{% endif %}</title>
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title | escape }}" />
 <meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:type" content="{% if page.opengraph_type %}{{ page.opengraph_type }}{% else if site.opengraph_type %}{{ site.opengraph_type }}{% else %}website{% endif %}" />
@@ -35,24 +19,6 @@
 {% endif %}
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
-
-{% if site.facebook_app_id %}
-<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
-{% endif %}
-
-<meta name="twitter:card" content="summary" />
-
-{% if site.author.twitter %}
-<meta name="twitter:site" content="{{ site.author.twitter }}" />
-{% endif %}
-
-{% if page.author.twitter or site.author.twitter %}
-<meta name="twitter:creator" content="{% if page.twitter %}{{ page.author.twitter }}{% else %}{{site.author.twitter }}{% endif %}" />
-{% endif %}
-
-{% if page.author.google or site.author.google %}
-<link rel=”author” href="https://plus.google.com/{% if page.author.google %}{{ page.author.google }}{% else %}{{ site.author.google }}{% endif %}"/>
-{% endif %}
 
 {% if page.determiner %}
 <meta property="og:determiner" content="{{ page.determiner }}" />
@@ -104,28 +70,15 @@
 
 {% endif %}
 
-
-{% if site.facebook.pixel_id %}
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '{{ site.facebook.pixel_id }}'); // Insert your pixel ID here.
-fbq('track', 'PageView');
-</script>
-<noscript>
-  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ site.facebook.pixel_id }}&ev=PageView&noscript=1" />
-</noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
-{% endif %}
+  <link rel="icon" href="/./favi.png">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="image_src" href="https://bc-at.net/assets/img/og.png">
+  <script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/assets/js/parallax-plugin.js"></script>
+  <script type="text/javascript" src="/assets/js/index.js"></script>
 
 </head>
-
-<div id="left"></div>
 
 <header>
 
