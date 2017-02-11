@@ -26,6 +26,7 @@ image:
   height: 726
   width: 1366
   type: image/jpeg
+future: true
 
 # Build settings
 markdown: kramdown
