@@ -165,8 +165,7 @@ body a:hover {
   border-bottom: rgba(0,0,0,0);
 }
 
-#sc, #ppt { width: 500px; }
-#ppt iframe { width: 600px; height: 500px; }
+#sc, #ppt { width: 450px; }
 
 #example1 {
   position: relative;
@@ -181,7 +180,6 @@ body a:hover {
 iframe {
   width: 107.9%;
   margin-left:-4%;
-  height: 500px;
 }
 
 blockquote {
