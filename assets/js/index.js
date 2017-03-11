@@ -13,9 +13,9 @@ if (mq.matches) {
   $('.nav').show();
   $('#dropDown').hide();
 }
-/*
+
 $(function(){
-    $("tbody").each(function(elem,index){
+    $("#col > tbody").each(function(elem,index){
       var arr = $.makeArray($("tr",this).detach());
       arr.reverse();
         $(this).append(arr);
