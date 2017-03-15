@@ -16,6 +16,11 @@ if (mq.matches) {
 
 $('#col > tbody tr:not(.new)').hide();
 
+$('#btn').click(function(){
+  $('#col > tbody tr').show();
+  $('#btn').hide();
+})
+
 /*
 $('#col > tbody tr:not(.new)').addClass("old");
 
