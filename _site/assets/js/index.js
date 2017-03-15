@@ -14,10 +14,10 @@ if (mq.matches) {
   $('#dropDown').hide();
 }
 
-$('#col > tbody tr:not(.new)').hide();
+$('.events > tbody tr:not(.new)').hide();
 
 $('#btn').click(function(){
-  $('#col > tbody tr').show();
+  $('.events > tbody tr').show();
   $('#btn').hide();
 })
 
