@@ -1,11 +1,5 @@
----
-layout: default
-title:  "- EVENTS!"
-permalink: /events/
----
-
-<tbody><table id="col" style="width:100%" cellpadding="8px">
-
+<LANGUAGE="VBSCRIPT">
+<html>
 <tr id="home">
   <td>Dec 8 <br> 6-8pm</td>
   <td>Barnard College</td>
@@ -218,42 +212,4 @@ We stand for immigrant justice, dignity, and worker rights.<br><br>
 
 Wednesday, March 8th 12:30 pm on the Brooklyn College Quad</h3></td>
 </tr>
-
-<tr id="home" class="new">
-  <td>March 16 <br> 6-8pm</td>
-  <td>CUNY Graduate Center, room C198</td>
-  <td>The New Executive Order & Immigration: Q & A Session With CUNY Citizenship Now<br>
-
-<h3 id="home">Have questions about the new Executive Order and how it may impact travel and visa applications? Come to the Q & A session with an experienced Immigration Attorney from CUNY Citizenship Now!</h3></td>
-</tr>
-
-<tr id="home" class="new">
-  <td>March 22 <br> 7-9pm</td>
-  <td>Brooklyn College, Ingersoll Hall 2127</td>
-  <td><a href="https://www.facebook.com/events/1396640323730259/">The Case for Socialism</a><br>
-
-<h3 id="home">Want to fight racism? • Want to fight Islamophobia? • Want to fight for immigrant rights? • Want to fight for women's liberation? •<br><br>
-
-Come to this discussion and join us!<br><br>
-
-Wednesday, March 22nd<br>
-Brooklyn College, Ingersoll Hall, Room 2127<br>
-7PM<br><br>
-
-Donald Trump's vicious attacks continue to dominate mainstream headlines, but the big news for the left is that socialism is re-emerging as a systemic alternative to capitalism.<br><br>
-
-Thousands of people are asking whether it's time to join socialist organizations in order to resist Trump--and the social system that gave rise to his villainy in the first place.<br><br>
-
-Don't sit on the sidelines and hope history turns back from the abyss. Now is the time to join the fight for a socialist future. Get involved with other socialists at Brooklyn College.<br><br>
-
-Sponsored by Brooklyn College International Socialist Organization (ISO)</h3></tr>
-
-<tr id="home" class="new">
-  <td>March 28 <br> 11am-2pm</td>
-  <td>Brooklyn College, Woody Tanger Auditourium</td>
-  <td>A Historical and Constitutional Assessment of Trump’s Immigration EOs<br>
-
-<h3 id="home">“Refugee Policy in the Trump Era: Lessons from Immigration History” 11 a.m. - 12:15 p.m.<br><br> Maria Cristina Garcia is professor of history at Cornell University, and a current Andrew Carnegie Fellow. Her research centers on immigrants, refugees, and exiles. She is the author of three books: The first, Havana USA, studies the political and economic influence of Cuban exiles in the U.S. Her second book, Seeking Refuge: Central American Migration to Mexico, the United States, and Canada, examines the individuals, groups, and organizations that responded to the Central American refugee crisis of the 1980s and 1990s and how these transnational networks reshaped North American refugee policy. Her current book project, Refuge in Post Cold War America, is a study of U.S. refugee policy in the Post-Cold War and post 9/11 era, which will be out later this year.<br><br>“Trump’s Immigration EOs: Is it Constitutional? What Rights Do I have?” 12:30 - 2 p.m.<br><br> Shane Kadidal is senior managing attorney at the Center for Constitutional Rights. He will assess the constitutionality of the EOs and also present on Know Your Rights. Mr. Kadidal has worked on several significant cases arising in the wake of 9/11, including the Center’s challenges to the indefinite detention of men at Guantánamo and domestic immigration sweeps. He has been counsel in major CCR cases, including Holder v. Humanitarian Law Project, United States of America and Vulcan Society, Inc. v. City of New York, and legal challenges to the NSA’s warrantless surveillance program.  Along with others at the Center for Constitutional Rights, he currently serves as U.S. counsel to WikiLeaks publisher Julian Assange in connection with potential Espionage Act charges, extradition, and the funding embargo.</h3></td>
-</tr>
-
-    </table></tbody>
+</html>

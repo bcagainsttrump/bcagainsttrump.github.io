@@ -20,6 +20,10 @@
   color: #000000; background: #c0c0c0;
 }
 
+.hidden {
+     display:none;
+}
+
 .underline {
   border-bottom: solid 2px;
 }

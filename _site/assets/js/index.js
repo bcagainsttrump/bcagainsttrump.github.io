@@ -14,6 +14,11 @@ if (mq.matches) {
   $('#dropDown').hide();
 }
 
+$('#col > tbody tr:not(.new)').hide();
+
+/*
+$('#col > tbody tr:not(.new)').addClass("old");
+
 $(function(){
     $("#col > tbody").each(function(elem,index){
       var arr = $.makeArray($("tr",this).detach());
