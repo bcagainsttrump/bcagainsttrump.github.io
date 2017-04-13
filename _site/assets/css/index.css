@@ -101,7 +101,10 @@ body {
   vertical-align: middle;
   background-color: #000000;
   text-rendering: optimizeLegibility;
-  padding: 3% 10% 3% 10%;
+  padding: 3% 0% 3% 0%;
+  position:absolute; transform: scale(0.75);
+   transform-origin: top center;
+   margin-top: 5px;
 }
 
 body p {
@@ -239,7 +242,7 @@ h1 {
 h2 {
 
   display: inline;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #b8b8b8;
   font-family: 'courier new', sans-serif;
@@ -249,7 +252,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.6em;
+  font-size: 0.8em;
   font-weight: 200;
   color: #555555;
   font-family: 'courier new', sans-serif;
@@ -280,7 +283,7 @@ sup {
   font-weight: 200;
   font-family: 'courier new', sans-serif; }
 
-  section a { font-size: 0.5em; }
+  section a { font-size: 0.7em; }
 
   .foot {
     bottom: -50px;
@@ -352,9 +355,9 @@ sup {
        font-weight:200;
      }
 
-     section a { font-size: 0.5em; }
+     section a { font-size: 0.7em; }
 
-     .nav a { font-size: 1.6em; }
+     .nav a { font-size: 1.5em; }
 
      #no img {
        width: 100%;
