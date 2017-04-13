@@ -93,7 +93,7 @@ header {
   font-family: 'courier new', sans-serif;
 }
 
-html { display: table; margin: auto; }
+html { display: table; margin-top: auto;}
 
 
 body {
@@ -352,7 +352,7 @@ sup {
        font-weight:200;
      }
 
-     section a { font-size: 0.8em; }
+     section a { font-size: 0.5em; }
 
      .nav a { font-size: 1.6em; }
 
@@ -416,6 +416,60 @@ sup {
      option { background: rgba(0, 0, 0, 1); }
 
   }
+
+  .slider {
+  max-width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+  margin: 20px auto;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url('../3-2/IMG_0681.JPG')no-repeat center;
+      background-size: cover;
+    animation:fade 12s infinite;
+-webkit-animation:fade 12s infinite;
+
+}
+.slide2 {
+  background: url(  '../2-16/IMG_0624.JPG')no-repeat center;
+      background-size: cover;
+    animation:fade2 12s infinite;
+-webkit-animation:fade2 12s infinite;
+}
+.slide3 {
+    background: url('../3-23/IMG_0882.JPG')no-repeat center;
+      background-size: cover;
+    animation:fade3 12s infinite;
+-webkit-animation:fade3 12s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
 
   /*
 
