@@ -19,7 +19,7 @@ $('.events > tbody tr:not(.new)').hide();
 $('#btn').click(function(){
   $('.events > tbody tr').show();
   $('#btn').hide();
-})
+});
 
 /*
 $('#col > tbody tr:not(.new)').addClass("old");

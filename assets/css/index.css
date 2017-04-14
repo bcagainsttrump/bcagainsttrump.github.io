@@ -95,17 +95,13 @@ header {
 
 html { display: table; margin-top: auto;}
 
-
 body {
   display: table-cell;
   vertical-align: middle;
   background-color: #000000;
   text-rendering: optimizeLegibility;
   padding: 3% 0% 3% 0%;
-  position:absolute; transform: scale(0.75);
-   transform-origin: top center;
-   margin-top: 5px;
-}
+  position:absolute; }
 
 body p {
   font-size: 24px;
@@ -310,6 +306,17 @@ sup {
 }
 
   #rec { padding-left: 30px; }
+
+  /*zoom for laptop*/
+
+  @media only screen and (min-device-width : 600px) and (max-device-width : 2000px) {
+
+  body { transform: scale(0.75);
+   transform-origin: top center;
+   margin-top: 5px;
+}
+
+}
 
   /*mobile screens*/
 
