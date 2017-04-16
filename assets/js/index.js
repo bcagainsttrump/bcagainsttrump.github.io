@@ -2,6 +2,8 @@ $(function() {
 
 $(document).ready(function() {
 
+/* mobile navigation */
+
 var mq = window.matchMedia( "(max-device-width : 420px)" );
 
 if (mq.matches) {
@@ -14,6 +16,8 @@ if (mq.matches) {
   $('#dropDown').hide();
 }
 
+/* show old events + button */
+
 $('.events > tbody tr:not(.new)').hide();
 
 $('#btn').click(function(){
@@ -21,8 +25,27 @@ $('#btn').click(function(){
   $('#btn').hide();
 });
 
-/*
+/* width fix */
+
+$('.events > tbody td:first-child').css('width', '120px');
+$('.events > tbody td:nth-child(2)').css('width', '180px');
+
+/* sticky header
+
+function sticky_relocate() {
+ var window_top = $(window).scrollTop();
+ var div_top = $('#sticky-anchor').offset().top;
+ if (window_top > div_top) {
+     $('#sticky').addClass('stick');
+ }
+};  $(window).scroll(sticky_relocate); sticky_relocate();
+
+
+/* alt script for old event
+
 $('#col > tbody tr:not(.new)').addClass("old");
+
+/* reverse order for events
 
 $(function(){
     $("#col > tbody").each(function(elem,index){
@@ -32,16 +55,7 @@ $(function(){
     });
 });
 
-/*
-  function sticky_relocate() {
-   var window_top = $(window).scrollTop();
-   var div_top = $('#sticky-anchor').offset().top;
-   if (window_top > div_top) {
-       $('#sticky').addClass('stick');
-   }
-};  $(window).scroll(sticky_relocate);sticky_relocate();
-*/
-  /*
+/* highlighting chosen link
 
   if (top.location.pathname === '/links/') {
     $('#links').attr('id', 'hi');
