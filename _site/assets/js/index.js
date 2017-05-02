@@ -29,7 +29,6 @@ $('#btn').click(function(){
 
 $('.events > tbody td:first-child').css('width', '120px');
 $('.events > tbody td:nth-child(2)').css('width', '180px');
-
 /* sticky header
 
 function sticky_relocate() {
