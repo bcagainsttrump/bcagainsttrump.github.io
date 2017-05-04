@@ -25,10 +25,20 @@ $('#btn').click(function(){
   $('#btn').hide();
 });
 
-/* width fix */
+/* table width fix */
 
 $('.events > tbody td:first-child').css('width', '120px');
 $('.events > tbody td:nth-child(2)').css('width', '180px');
+
+/* lightbox */
+
+lightbox.option({
+     'maxWidth': 1280,
+     'maxHeight': 1280,
+     'disableScrolling' :	false,
+     'fitImagesInViewport' : true,
+     'wrapAround': true,
+   })
 
 /* sticky header
 
