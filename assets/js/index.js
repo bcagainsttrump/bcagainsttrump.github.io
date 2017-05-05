@@ -36,7 +36,7 @@ lightbox.option({
      'maxWidth': 1280,
      'maxHeight': 1280,
      'disableScrolling' :	false,
-     'fitImagesInViewport' : true,
+     'fitImagesInViewport' : false,
      'wrapAround': true,
    })
 
