@@ -90,7 +90,7 @@ section span {
 
 #intro span {
   display: inline-block;
-  border-right: .05em solid;
+  border-right: .0em solid;
   animation: caret 1s steps(1) infinite;
 }
 
