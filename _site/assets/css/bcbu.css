@@ -114,6 +114,7 @@ section span {
   background-image: url('/./assets/img/mullins.jpg');
 }
 
+#sba small {background-color: rgba(0,0,0,0.5);}
 #i69 {
   text-align: center;
   vertical-align: bottom;
