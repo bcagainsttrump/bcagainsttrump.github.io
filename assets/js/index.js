@@ -1,10 +1,10 @@
-$(function() {
+(function() {
 
 $(document).ready(function() {
 
 /* mobile navigation */
 
-var mq = window.matchMedia( "(max-device-width : 420px)" );
+var mq = window.matchMedia( "(max-device-width : 412px)" );
 
 if (mq.matches) {
 
