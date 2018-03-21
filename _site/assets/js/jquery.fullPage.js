@@ -115,10 +115,10 @@
 
             //scrolling
             css3: true,
-            scrollingSpeed: 100,
-            autoScrolling: true,
+            scrollingSpeed: 6000,
+            autoScrolling: false,
             fitToSection: true,
-            fitToSectionDelay: 1000,
+            fitToSectionDelay: 500,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
             loopBottom: false,
@@ -137,7 +137,7 @@
             scrollOverflowReset: true,
             scrollOverflowHandler: $.fn.fp_scrolloverflow ? $.fn.fp_scrolloverflow.iscrollHandler : null,
             scrollOverflowOptions: null,
-            touchSensitivity: 5,
+            touchSensitivity: 50,
             normalScrollElementTouchThreshold: 5,
             bigSectionsDestination: null,
 
