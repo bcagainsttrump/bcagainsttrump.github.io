@@ -137,7 +137,7 @@
             scrollOverflowReset: true,
             scrollOverflowHandler: $.fn.fp_scrolloverflow ? $.fn.fp_scrolloverflow.iscrollHandler : null,
             scrollOverflowOptions: null,
-            touchSensitivity: 50,
+            touchSensitivity: 5,
             normalScrollElementTouchThreshold: 5,
             bigSectionsDestination: null,
 

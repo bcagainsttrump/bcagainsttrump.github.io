@@ -1,10 +1,8 @@
-(function() {
-
 $(document).ready(function() {
 
 /* mobile navigation */
 
-var mq = window.matchMedia( "(max-device-width : 412px)" );
+var mq = window.matchMedia( "(min-device-width : 320px) and (max-device-width : 420px)" );
 
 if (mq.matches) {
 
@@ -80,4 +78,3 @@ $(function(){
   */
 
    });
- });
