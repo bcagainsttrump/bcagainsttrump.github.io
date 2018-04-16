@@ -170,6 +170,17 @@ section span {
   background-image: url('/./assets/img/z1_1.jpg');
 }
 
+#brian {
+  position: relative;
+  display:table;
+  text-align: right;
+  background-position: left;
+  vertical-align: bottom;
+  background-size:cover;
+  background-attachment: fixed;
+  background-image: url('http://yosoyborinquen.com/wp-content/uploads/PalanteSiemprePalanteTheYoungLords-1280x640.jpg');
+}
+
 #creds, #creds h1 {
   position: absolute;
   text-align: right; bottom: 0; right: 0;
