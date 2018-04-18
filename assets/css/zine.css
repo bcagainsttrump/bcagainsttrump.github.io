@@ -12,8 +12,7 @@ td { overflow: hidden; }
   width:300px; padding-right: 10px;
 }
 
-section h1 {
-display: block }
+section h1 { display: block }
 
 /*mobile screens*/
 
@@ -32,36 +31,11 @@ display: block }
     font-size: 2.5em;
   }
 
-  #creds {
-
-  }
-
   body a {
     color:#000;
     border-bottom: 0px solid white;
     display:inline-block;
   }
-
-/*mobile screens*/
-
-@media only screen and (min-device-width : 412px) and (max-device-width : 412px) {
-
-  section {
-    min-width: 412px;
-    max-width: 412px;
-    height: 100vw;
-    overflow: scroll;
-  }
-
-  h1 {
-    line-height: 40px;
-    padding-right: 20px;
-    font-size: 2.5em;
-  }
-
-  body { padding: 0%; }
-
-}
 
   #polica {
     color: white; background-color:black;
@@ -78,5 +52,7 @@ display: block }
   table { font-size: 1em; display:block; max-width: 400px; }
 
   #col td { display: block; border-bottom: 2px; padding-left: 0px; overflow: scroll; }
+
+  #creds { color:black; font-size: 20px}
 
 }
