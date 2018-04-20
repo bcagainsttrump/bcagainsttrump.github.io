@@ -134,7 +134,7 @@
             fadingEffect: false,
             normalScrollElements: null,
             scrollOverflow: true,
-            scrollOverflowReset: true,
+            scrollOverflowReset: false,
             scrollOverflowHandler: $.fn.fp_scrolloverflow ? $.fn.fp_scrolloverflow.iscrollHandler : null,
             scrollOverflowOptions: null,
             touchSensitivity: 5,
