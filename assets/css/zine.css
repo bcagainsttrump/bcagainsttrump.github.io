@@ -1,15 +1,17 @@
 
   body a {
-    color:#000;
     display:inline-block;
   }
 
 td { overflow: hidden; }
 
-#polica {
-  color: white;
-  background-color:black;
-  width:300px; padding-right: 10px;
+#links {
+background: white;
+color: black
+}
+
+#links a {
+color: black
 }
 
 section h1 { display: block }
@@ -32,7 +34,6 @@ section h1 { display: block }
   }
 
   body a {
-    color:#000;
     border-bottom: 0px solid white;
     display:inline-block;
   }
@@ -53,6 +54,6 @@ section h1 { display: block }
 
   #col td { display: block; border-bottom: 2px; padding-left: 0px; overflow: scroll; }
 
-  #creds { color:black;}
+  #creds { color:black; font-size: 3em;}
 
 }
