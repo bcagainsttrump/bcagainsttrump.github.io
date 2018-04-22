@@ -302,8 +302,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   }
 
   h2, h2 span, #i90, #i15 {
-    font-size: 1em;
-    text-align:center;
+    font-size: 1.5em;
   }
 
   h3, h3 span { font-size: 0.3em; }

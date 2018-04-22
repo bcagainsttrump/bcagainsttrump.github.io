@@ -18,13 +18,11 @@ section h1 { display: block }
 
 /*mobile screens*/
 
-@media only screen and (min-device-width : 412px) and (max-device-width : 412px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 420px) {
 
   section {
-    min-width: 412px;
-    max-width: 412px;
-    height: 100vw;
-    overflow: scroll;
+    min-width: 320px;
+    max-width: 420px;
   }
 
   #intro {
