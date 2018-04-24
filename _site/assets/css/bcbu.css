@@ -174,11 +174,11 @@ section span {
   position: relative;
   display:table;
   text-align: right;
-  background-position: left;
-  vertical-align: bottom;
+  background-position: center;
+  vertical-align: top;
   background-size:cover;
   background-attachment: fixed;
-  background-image: url('/assets/img/misc/negative.jpg');
+  background-image: url('/assets/img/misc/bg1.jpg');
 }
 
 #creds, #creds h1 {
