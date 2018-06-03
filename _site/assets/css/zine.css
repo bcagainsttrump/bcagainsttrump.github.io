@@ -35,7 +35,7 @@ section h1 { display: block }
   vertical-align: bottom;
   background-size:cover;
   background-attachment: fixed;
-  background-image: url('/assets/img/z1_1.jpg');
+  background-image: url('/assets/img/misc/police.jpg');
 }
 
 #z1_2 {
@@ -47,7 +47,7 @@ section h1 { display: block }
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url('/assets/img/misc/7.png');
+  background-image: url('/assets/img/misc/sjpbg.png');
 }
 
 /*mobile screens*/
