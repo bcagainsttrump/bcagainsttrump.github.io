@@ -44,10 +44,10 @@ section h1 { display: block }
   text-align: right;
   background-position: center;
   vertical-align: top;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url('/assets/img/z1_2.png');
+  background-image: url('/assets/img/misc/7.png');
 }
 
 /*mobile screens*/
